@@ -144,7 +144,7 @@ p {
 .Completed-Project{
     margin-bottom: 20px;
     padding: 50px;
-    height:3050px;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: linear-gradient(to right, #fdfdfd -10%,#808081  50%,#808081 50%,#fdfdfd 100%);
     color: #141414;
