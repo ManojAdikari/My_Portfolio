@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Site Metas -->
+  <title>Manoj's Profile </title>
+
+  <!-- Site Icons -->
+
+
+  <!-- CSS -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Navigation Bar css -->
+  <link rel="stylesheet" href="css/navigater.css">
+  <link rel="stylesheet" href="css/projectiten.css">
+  <link rel="stylesheet" href="css/contact_Me.css">
+  <link rel="stylesheet" href="css/Slideshow.css">
+
+
+
+</head>
+
+<body>
+
+
+  <!-- Start header -->
+  <div>
+    <header class="header">
+
+
+      <!-- Start Navigation Bar -->
+      <!--<img  class="logo" src="images/logo.jpg" alt="">-->
+      <nav>
+        <ul class="nav_links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#About">About me</a></li>
+          <li><a href="#CompletedProject">Completed Project</a></li>
+          <li><a href="#">Ongoing Project</a></li>
+
+
+        </ul>
+      </nav>
+      <a class="cta" href="#Contactme"><button class="button_nav">Contact</button></a>
+
+      <!-- End Navigation Bar -->
+
+
+
+    </header>
+  </div>
+  <!-- End header -->
+
+  <!-- Start Banner -->
+
+  <div class="pogoSlider">
+
+    <div class="pogoSlider-slide">
+
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 8</div>
+          <img src="./images/cecb.PNG" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 8</div>
+          <img src="./images/vms.PNG" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 8</div>
+          <img src="./images/anji1.PNG" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 8</div>
+          <img src="./images/Accountcecb1.PNG" style="width:100%">
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 8</div>
+          <img src="./images/suji.PNG" style="width:100%">
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 8</div>
+          <img src="./images/.PNG" style="width:100%">
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 8</div>
+          <img src="./images/hrs.JPG" style="width:100%">
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">8 / 8</div>
+          <img src="./images/anji1.PNG" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) { slideIndex = 1 }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+      </script>
+
+
+
+    </div>
+  </div>
+  <!-- .pogoSlider -->
+
+
+  <!-- End Banner -->>
+
+  <!-- section -->
+  <!-- About me -->
+  <div class="content">
+    <div id="About" class="About-me">
+      <h2>About Me</h2>
+
+
+      <div class="row">
+        <div class="column left">
+          <div class="skill-mf">
+            <img src="./images/mj.jpg" />
+            <h3>Skills</h3>
+
+            <span>C# .NET</span> <span class="pull-right">90%</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <span>SQL SERVER / MY SQL</span> <span class="pull-right">85%</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <span>ASP>Net</span> <span class="pull-right">50%</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <span>HTML</span> <span class="pull-right">50%</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <span>CSS</span> <span class="pull-right">50%</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <span>PHP</span> <span class="pull-right">40%</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <span>JAVASCRIPT</span> <span class="pull-right">50%</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="column right">
+          <p>
+
+            I am Manoj Adhikari and I have 5 years + of working experience as a software developer in Sri Lanka.
+            I worked for the government sector comppany call Central Engineering Consultancy Bureau which developed
+            in-house applications for internal parties as well as for private companies .
+            A few of the major systems that I developed are, </p><br>
+
+          <p>⦾ The vehicle management system.</p>
+          <p>⦾ CECB accounting system.</p>
+          <p>⦾ Railway accommodation system.</li>
+          </p>
+          <p>⦾ Rate Handling System.</p>
+          <p>⦾ CESL accounting system (ERP)</p>
+
+          <p>I am familiar with c#.net,Asp,SAP Crystal Reports and SQL servers.</p>
+
+
+          </p>
+        </div>
+      </div>
+
+
+
+    </div>
+    <!-- end section -->
+
+    <!-- section -->
+    <!-- Completed Project -->
+    <!-- Start Flex Contaner -->
+
+    <div id="CompletedProject" class="Completed-Project">
+      <h2>Completed Project</h2>
+
+      <div class="flex-container-main">
+        <article class="flex-item-main">
+          
+          <a class="image-link" href="./images/vms.PNG"><img src="./images/vms.PNG"></a>
+          
+          <div class="text">
+            <h3>Vehicle Management system</h3>
+            <p>Central Engineering Consultancy Bureau (CECB) was established as a fully owned State Enterprise by the
+              Government of Sri Lanka in 1973. CECB has been operating as a self-financed Government Corporation since
+              its inception and is primarily involved in providing Engineering Consultancy, Construction, and related
+              Services. The vehicle management system helps to organize vehicles to particular locations, assign
+              drivers, notify about license expiration, and store vehicle registrations including images and many other
+              services.</p>
+            <button>Visit</button>
+          </div>
+        </article>
+      </div>
+
+      <div class="flex-container">
+
+
+        <article class="flex-item">
+         
+          
+          <a class="image-link" href="./images/Accountcecb1.PNG"><img src="./images/Accountcecb1.PNG"></a>
+          
+          <div class="text">
+            <h3>Accountig CECB</h3>
+            <p>CECB accounting system consists of financial accounts and system facilitates overall accounting part with
+              final accounts of Central
+              Engineering Consultancy Bureau</p>
+            <button>Visit</button>
+          </div>
+        </article>
+
+        <article class="flex-item">
+      
+          <a class="image-link" href="./images/suji.PNG"><img src="./images/suji.PNG"></a>
+          <div class="text">
+            <h3>Inventory Management System</h3>
+            <p>.....</p>
+            <button>Visit</button>
+          </div>
+
+        </article>
+        <article class="flex-item">
+        
+          <a class="image-link" href="./images/anji1.PNG"><img src="./images/anji1.PNG"></a>
+          <div class="text">
+            <h3>Sales Management System</h3>
+            <p>Point of Sale system allows your business to accept payments from customers and keep track of sales.</p>
+            <button>Visit</button>
+          </div>
+        </article>
+        <article class="flex-item">
+
+          <a class="image-link" href="./images/hrs.JPG"><img src="./images/hrs.JPG"></a>
+
+         <!-- <img src="../2nd Week/images/hrs.JPG" alt="Sample photo"> -->
+
+
+          <div class="text">
+            <h3>LRS car Hires</h3>
+            <p>LRS Car Hires is the first Sri Lankan electric car rental company who to recognise the effects of Global
+              Warming back in 2006.
+
+              Over the years we have tried to do our bit to reduce the impact of climate change on our world. The car
+              manufacturers over this time have helped by consistently launching innovative new vehicles
+              with even lower Co2 emissions. And, as a Company, we have offset the carbon emissions of our fleet by
+              100%.</p>
+
+            <a href="http://lrscarhires.com/"><button>Visit</button></a>
+
+
+          </div>
+        </article>
+        <article class="flex-item">
+          
+          <a class="image-link" href="./images/cecb.PNG"><img src="./images/cecb.PNG"></a>
+          <div class="text">
+            <h3>Central Engineering Consultancy Bureau Web Sri lanka</h3>
+            <p>The Central Engineering Consultancy Bureau (CECB) is the forefront of some of the
+              largest development projects in Sri Lanka and is the premier consultancy in Sri Lanka
+              with a wide range of expertise in different engineering disciplines. The Bureau was
+              established in 1973.
+              IT section of CECB is the only state owned organization as IT solution provider to the
+              Government Sector with a professional team. Experience in IT sector for 35years has
+              increased the quality and standard of our services. Hold long term partnerships with
+              world recognized industry leaders to provide the best and competitive solutions.</p>
+
+            <a href=" https://www.cecb.lk/"><button>Visit</button></a>
+          </div>
+        </article>
+        <article class="flex-item ">
+      
+
+          <a class="image-link" href="./images/vms.PNG"><img src="./images/vms.PNG"></a>
+          <div class="text">
+            <h3>Vehicle Management system</h3>
+            <p>Central Engineering Consultancy Bureau (CECB) was established as a fully owned State Enterprise by the
+              Government of Sri Lanka in 1973. CECB has been operating as a self-financed Government Corporation since
+              its inception and is primarily involved in providing Engineering Consultancy, Construction, and related
+              Services. The vehicle management system helps to organize vehicles to particular locations, assign
+              drivers, notify about license expiration, and store vehicle registrations including images and many other
+              services.</p>
+            <button>Visit</button>
+          </div>
+        </article>
+
+      </div>
+      <!-- End Flex Contaner -->
+    </div>
+
+
+
+
+
+    <!-- section -->
+
+    <div class="container" id="Contactme">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">78 Pratt Av</div>
+            <div class="text-two">Pooraka 5095</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">+64451177703</div>
+            <div class="text-two">+9474710107</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">manojadee@gmail.com</div>
+            <div class="text-two">manojpadikari@gmail.com</div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text">Send me a message</div>
+          <p>If you have any work from me or any types of quries , you can send me message from here. </p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box message-box">
+
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- section -->
+    <div>
+      <footer>
+        <div class="footer">
+          <h2>Made by Manoj Adikari</h2>
+          <p>
+            &copy;
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- end section -->
+
+
+</body>
+
+</html>
